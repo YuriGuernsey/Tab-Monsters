@@ -1,0 +1,11 @@
+{
+  "name": "Tab Monsters",
+  "options_page": "options.html",
+  "description": "Take care of you little tab monster.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  }
+ }
